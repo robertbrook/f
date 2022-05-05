@@ -13,8 +13,8 @@ jobs:
       - name: Run Action
         uses: llun/feeds@2.3
         with:
-          opmlFile: feeds.opml
-          branch: contents
+          # opmlFile: feeds.opml
+          # branch: contents
           # Github token for pulling repository information
           # token: # optional, default is ${{ github.token }}
           # Enable custom domain name for the site generator
