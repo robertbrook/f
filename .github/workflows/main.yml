@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: Run Action
         uses: llun/feeds@2.3
-        # with:
+        with:
           # opmlFile: feeds.opml
           # branch: contents
           # Github token for pulling repository information
           # token: # optional, default is ${{ github.token }}
           # Enable custom domain name for the site generator
-          # customDomain:
+          customDomain: robertbrook.github.io
